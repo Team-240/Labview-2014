@@ -1,0 +1,6 @@
+2012 Vision Testing:
+
+-I first took many pictures with my phone, with flash on. These were at high resolution.
+-I then resized the sample sets using test_image_resize.vi (which takes a folder of image and resizes them all in bulk to a new size) to either 640x480, 320x240, or 160x120. I decided 320x240 was the best mix of size and speed, so most later testing was at that resolution.
+-I implemented vision tests in test_vision.vi, which would then run sample folders and output the results to new images with data overlaid.
+-I ran samples for days on end getting the analysis to work correctly. In retrospect, more partially occluded samples would have been better, but it is what it is.
